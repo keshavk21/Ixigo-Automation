@@ -1,0 +1,75 @@
+{
+  "urls": {
+    "base": "https://www.ixigo.com/",
+    "groupBooking": "https://rocket.ixigo.com/group/index.html?p=app_search_form"
+  },
+
+  "browser": {
+    "defaultTimeout": 45000,
+    "pageTimeout": 25000,
+    "navigationTimeout": 30000,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "viewport": { "width": 1280, "height": 800 },
+    "locale": "en-US"
+  },
+
+  "viewports": {
+    "desktop": { "width": 1440, "height": 900 },
+    "tablet":  { "width": 768,  "height": 1024 },
+    "mobile":  { "width": 390,  "height": 844 }
+  },
+
+  "search": {
+    "origin": {
+      "searchText":  "Delhi",
+      "airportName": "Delhi Indira Gandhi International Airport"
+    },
+    "destination": {
+      "searchText":  "Bengaluru",
+      "airportName": "Kempegowda International Airport"
+    },
+    "departureDate": "September 24, 2026",
+    "returnDate":    "September 28, 2026",
+    "adults":        2,
+    "cabinClass":    "Economy",
+    "specialFare":   "Student"
+  },
+
+  "filters": {
+    "stops":            "Non-Stop",
+    "airline":          "Air India",
+    "departureWindow":  "6AM - 12PM",
+    "arrivalWindow":    "12PM - 6PM",
+    "datePriceStrip":   "Fri, 25 Sep",
+    "departureAirport": "DEL - Delhi Indira Gandhi International Airport",
+    "sortModes":        ["Price", "Fastest", "Departure", "Smart"]
+  },
+
+  "tracker": {
+    "flightNumber": "AI-101",
+    "route": {
+      "origin":      "Delhi",
+      "destination": "Mumbai",
+      "date":        "Today"
+    }
+  },
+
+  "groupBooking": {
+    "origin":         "Delhi",
+    "destination":    "Mumbai",
+    "travellerCount": 10,
+    "contact": {
+      "name":  "Test User",
+      "phone": "9999999999",
+      "email": "test.user@example.com"
+    }
+  },
+
+  "navigation": {
+    "headerLinks":              ["Flights", "Hotels", "Trains", "Buses"],
+    "clickableHeaderLink":      "Trains",
+    "clickableHeaderLinkPath":  "/trains",
+    "footerLink":               "About Us",
+    "footerLinkPath":           "/about"
+  }
+}

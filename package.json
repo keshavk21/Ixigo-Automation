@@ -1,0 +1,33 @@
+{
+  "name": "ixigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "cucumber-js",
+    "test:bdd:parallel": "cross-env PARALLEL=4 cucumber-js",
+    "test:headed": "cross-env HEADLESS=false cucumber-js --profile headed",
+    "report": "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2",
+    "allure-playwright": "^3.12.1",
+    "cross-env": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^4.3.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
